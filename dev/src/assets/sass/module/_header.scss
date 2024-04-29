@@ -1,0 +1,17 @@
+@use "../global" as *;
+
+.header {
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav .menu {
+  display: flex;
+}
+
+.header__nav .menu-item:not(:first-child) {
+  margin-left: 1rem;
+}
